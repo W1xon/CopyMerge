@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|c:\\users\\vladi\\source\\repos\\copymerge\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\keylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:keylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\dictionarycolor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:dictionarycolor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\comboboxstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:comboboxstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\btnstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:btnstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA5wDEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T10:36:02.77Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-29T10:36:21.37Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\Properties\\Resources.resx",
+              "RelativeToolTip": "Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-30T04:19:34.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\Properties\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "Properties\\Settings.Designer.cs",
+              "ToolTip": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\Properties\\Settings.Designer.cs",
+              "RelativeToolTip": "Properties\\Settings.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T04:19:33.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\Properties\\Settings.settings",
+              "RelativeToolTip": "Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-04-30T04:01:36.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DictionaryColor.xaml",
+              "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\DictionaryColor.xaml",
+              "RelativeDocumentMoniker": "DictionaryColor.xaml",
+              "ToolTip": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\DictionaryColor.xaml",
+              "RelativeToolTip": "DictionaryColor.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-30T03:21:49.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ComboBoxStyle.xaml",
+              "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\ComboBoxStyle.xaml",
+              "RelativeDocumentMoniker": "ComboBoxStyle.xaml",
+              "ToolTip": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\ComboBoxStyle.xaml",
+              "RelativeToolTip": "ComboBoxStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-30T03:15:07.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BtnStyle.xaml",
+              "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\BtnStyle.xaml",
+              "RelativeDocumentMoniker": "BtnStyle.xaml",
+              "ToolTip": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\BtnStyle.xaml",
+              "RelativeToolTip": "BtnStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-29T14:56:07.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-29T11:42:15.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KeyLogger.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\KeyLogger.cs",
+              "RelativeDocumentMoniker": "KeyLogger.cs",
+              "ToolTip": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\KeyLogger.cs",
+              "RelativeToolTip": "KeyLogger.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAYwFsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T10:42:17.697Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
