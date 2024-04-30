@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|c:\\users\\vladi\\source\\repos\\copymerge\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\keylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:keylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\dictionarycolor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:dictionarycolor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|c:\\users\\vladi\\source\\repos\\copymerge\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
@@ -29,6 +21,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\resources\\icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:resources\\icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\keylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:keylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\dictionarycolor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|solutionrelative:dictionarycolor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{802E7BD9-3569-4DB3-BC3B-3D95D70D353D}|CopyMerge.csproj|C:\\Users\\vladi\\source\\repos\\CopyMerge\\comboboxstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -50,17 +54,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA5wDEAAAA5AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T10:36:02.77Z",
               "IsPinned": true,
@@ -68,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -81,7 +85,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "icon.ico - Icon [256x256, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, PNG]",
+              "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\Resources\\icon.ico",
+              "RelativeDocumentMoniker": "Resources\\icon.ico",
+              "ToolTip": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\Resources\\icon.ico - Icon [256x256, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, PNG]",
+              "RelativeToolTip": "Resources\\icon.ico - Icon [256x256, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-04-30T09:57:55.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "Properties\\Resources.resx",
@@ -92,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Settings.Designer.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\Properties\\Settings.Designer.cs",
               "RelativeDocumentMoniker": "Properties\\Settings.Designer.cs",
@@ -100,22 +115,24 @@
               "RelativeToolTip": "Properties\\Settings.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T04:19:33.003Z"
+              "WhenOpened": "2024-04-30T04:19:33.003Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Settings.settings",
               "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\Properties\\Settings.settings",
               "RelativeDocumentMoniker": "Properties\\Settings.settings",
               "ToolTip": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\Properties\\Settings.settings",
               "RelativeToolTip": "Properties\\Settings.settings",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2024-04-30T04:01:36.132Z"
+              "WhenOpened": "2024-04-30T04:01:36.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "DictionaryColor.xaml",
               "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\DictionaryColor.xaml",
               "RelativeDocumentMoniker": "DictionaryColor.xaml",
@@ -127,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ComboBoxStyle.xaml",
               "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\ComboBoxStyle.xaml",
               "RelativeDocumentMoniker": "ComboBoxStyle.xaml",
@@ -139,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "BtnStyle.xaml",
               "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\BtnStyle.xaml",
               "RelativeDocumentMoniker": "BtnStyle.xaml",
@@ -151,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -163,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "KeyLogger.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\CopyMerge\\KeyLogger.cs",
               "RelativeDocumentMoniker": "KeyLogger.cs",

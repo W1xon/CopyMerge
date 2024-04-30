@@ -20,34 +20,21 @@ namespace CopyMerge
         public MainWindow()
         {
             InitializeComponent();
-            SetAutoLaunch(true, Assembly.GetEntryAssembly().Location);
-           
-                SetComboBoxValue();
-                isInitializing = false;
-                notifyIcon = new NotifyIcon();
-                notifyIcon.BalloonTipText = "Программа свернута в трей, вы можете продолжать ей пользоваться :)";
-                notifyIcon.BalloonTipTitle = "Go To tray";
-                notifyIcon.Text = "CopyMerge";
-            try
+            if (Properties.Settings.Default.Autoran)
             {
-                System.Windows.MessageBox.Show("e", "1");
-                notifyIcon.Icon = new System.Drawing.Icon("icon.ico");
-                System.Windows.MessageBox.Show("e", "2");
-                notifyIcon.Click += new EventHandler(NotifyIcon_Click);
-                System.Windows.MessageBox.Show("e", "3");
-                KeyLogger.KeyBufferClear();
-                System.Windows.MessageBox.Show("e", "4");
-                KeyLogger.KeyChecker();
-                System.Windows.MessageBox.Show("e", "5");
-                File.AppendAllText("log.txt", "MainWindow: Components Initialized\n");
-                System.Windows.MessageBox.Show("e", "6");
-
+                
             }
-            catch (Exception ex)
-            {
-                File.AppendAllText("log.txt", ex.Message);
-            }
-            System.Windows.MessageBox.Show("e", "Final");
+            SetComboBoxValue();
+            isInitializing = false;
+            notifyIcon = new NotifyIcon();
+            notifyIcon.BalloonTipText = "Программа свернута в трей, вы можете продолжать ей пользоваться :)";
+            notifyIcon.BalloonTipTitle = "Go To tray";
+            notifyIcon.Text = "CopyMerge";
+            string iconPath = "icon.ico";
+            notifyIcon.Icon = new System.Drawing.Icon(System.AppDomain.CurrentDomain.BaseDirectory + iconPath);
+            notifyIcon.Click += new EventHandler(NotifyIcon_Click);
+            KeyLogger.KeyBufferClear();
+            KeyLogger.KeyChecker();
         }
         private bool SetAutoLaunch(bool launch, string path)
         {
@@ -128,6 +115,16 @@ namespace CopyMerge
                     comboBox.SelectedIndex = 3;
                     break;
             }
+            switch (Properties.Settings.Default.Autoran)
+            {
+                case true:
+                    comboBoxAutoran.SelectedIndex = 0;
+                    break;
+
+                case false:
+                    comboBoxAutoran.SelectedIndex = 1;
+                    break;
+            }
         }
         private void OpenTelegram(object sender, RoutedEventArgs e)
         {
@@ -143,8 +140,24 @@ namespace CopyMerge
             }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void comboBoxAutoran_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (!isInitializing)
+            {
+                switch (((ComboBoxItem)comboBoxAutoran.SelectedItem).Content.ToString())
+                {
+                    case "Выключено":
+                        Properties.Settings.Default.Autoran = false;
+                        SetAutoLaunch(false, Assembly.GetEntryAssembly().Location);
+                        break;
+
+                    case "Включено":
+                        Properties.Settings.Default.Autoran = true;
+                        SetAutoLaunch(true, Assembly.GetEntryAssembly().Location);
+                        break;
+                }
+                Properties.Settings.Default.Save();
+            }
         }
     }
 }

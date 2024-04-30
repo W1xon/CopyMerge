@@ -17,7 +17,7 @@
     Icon="/icon.ico"
     IsVisibleChanged="OnIsVisibleChanged"
     StateChanged="OnStateChanged"
-    mc:Ignorable="d">
+    mc:Ignorable="d" WindowStartupLocation="CenterScreen">
 
     <Window.Resources>
         <ResourceDictionary>
@@ -42,11 +42,11 @@
             Foreground="#8fcaee"
             TextWrapping="Wrap">
             <Run FontWeight="ExtraBold" Foreground="#c678cf">CopyMerge</Run>
-            - твой новый инструмент для копирования текста. Чтобы скопировать и сохранить несколько фрагментов текста, просто зажми<Run FontWeight="ExtraBold" Foreground="#c678cf">Ctrl</Run>
-            ,  нажми<Run FontWeight="ExtraBold" Foreground="#c678cf">C</Run>
-            , отпусти<Run FontWeight="ExtraBold" Foreground="#c678cf">C</Run>
-            , затем нажми<Run FontWeight="ExtraBold" Foreground="#c678cf">Shift</Run>
-            и отпусти все клавиши. С<Run FontWeight="ExtraBold" Foreground="#c678cf">Ctrl + C + Shift</Run>
+            - твой новый инструмент для копирования текста. Чтобы скопировать и сохранить несколько фрагментов текста, просто зажми <Run FontWeight="ExtraBold" Foreground="#c678cf">Ctrl</Run>
+            ,  нажми <Run FontWeight="ExtraBold" Foreground="#c678cf">C</Run>
+            , отпусти <Run FontWeight="ExtraBold" Foreground="#c678cf">C</Run>
+            , затем нажми <Run FontWeight="ExtraBold" Foreground="#c678cf">Shift</Run>
+            и отпусти все клавиши. С <Run FontWeight="ExtraBold" Foreground="#c678cf">Ctrl + C + Shift</Run>
             ты можешь собирать все, что угодно, в одном месте. Прощай, бесконечное переключение между окнами!</TextBlock>
         <Grid Grid.Row="1" Margin="10,10,0,80">
             <TextBlock
@@ -87,6 +87,40 @@
                     FontSize="20" />
                 <ComboBoxItem
                     Content=". "
+                    FontFamily="JetBrainsMono-Bold.ttf#JetBrains Mono"
+                    FontSize="20" />
+            </ComboBox>
+            <TextBlock
+                Width="150"
+                Height="40"
+                Margin="10,0,0,0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontFamily="JetBrainsMono-Bold.ttf#JetBrains Mono"
+                FontSize="20"
+                Foreground="#8fcaee"
+                Text="Автозапуск:"
+                TextWrapping="Wrap" />
+            <ComboBox
+                x:Name="comboBoxAutoran"
+                Width="140"
+                Height="30"
+                Margin="0,0,0,20"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Bottom"
+                FontFamily="JetBrainsMono-Bold.ttf#JetBrains Mono"
+                FontSize="20"
+                Foreground="{DynamicResource ComboBoxTextColorSCB}"
+                ItemContainerStyle="{DynamicResource ComboBoxItem}"
+                SelectedIndex="0"
+                SelectionChanged="comboBoxAutoran_SelectionChanged"
+                Style="{DynamicResource ComboBox}">
+                <ComboBoxItem
+                    Content="Включено"
+                    FontFamily="JetBrainsMono-Bold.ttf#JetBrains Mono"
+                    FontSize="20" />
+                <ComboBoxItem
+                    Content="Выключено"
                     FontFamily="JetBrainsMono-Bold.ttf#JetBrains Mono"
                     FontSize="20" />
             </ComboBox>

@@ -34,5 +34,17 @@ namespace CopyMerge.Properties {
                 this["Separator"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Autoran {
+            get {
+                return ((bool)(this["Autoran"]));
+            }
+            set {
+                this["Autoran"] = value;
+            }
+        }
     }
 }
