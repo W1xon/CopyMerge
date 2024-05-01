@@ -38,7 +38,7 @@
             Grid.Row="0"
             Margin="10"
             FontFamily="JetBrainsMono-Bold.ttf#JetBrains Mono"
-            FontSize="20"
+            FontSize="18"
             Foreground="#8fcaee"
             TextWrapping="Wrap">
             <Run FontWeight="ExtraBold" Foreground="#c678cf">CopyMerge</Run>
