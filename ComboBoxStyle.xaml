@@ -16,8 +16,8 @@
                         <Border BorderBrush="{DynamicResource ComboBoxItemBorderColorSCB}" BorderThickness="1">
                             <Border.Background>
                                 <LinearGradientBrush>
-                                    <GradientStop Offset="0" Color="{DynamicResource ComboBoxItemBackgroundGradientColorOne}" />
-                                    <GradientStop Offset="1" Color="{DynamicResource ComboBoxItemBackgroundGradientColorTwo}" />
+                                    <GradientStop Offset="0" Color="{DynamicResource ComboBoxLeaveBackgroundGradientColor}" />
+                                    <GradientStop Offset="1" Color="{DynamicResource ComboBoxLeaveBackgroundGradientColor}" />
                                 </LinearGradientBrush>
                             </Border.Background>
 

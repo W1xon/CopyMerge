@@ -1,9 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <!--  ComboBox  -->
-    <Color x:Key="ComboBoxLeaveBackgroundGradientColorOne">#282c34</Color>
-    <Color x:Key="ComboBoxLeaveBackgroundGradientColorTwo">#282c34</Color>
-    <Color x:Key="ComboBoxOverColorGradientColorOne">#454c5a</Color>
-    <Color x:Key="ComboBoxOverColorGradientColorTwo">#454c5a</Color>
+    <Color x:Key="ComboBoxLeaveBackgroundGradientColor">#282c34</Color>
+    <Color x:Key="ComboBoxOverColorGradientColor">#454c5a</Color>
     <SolidColorBrush x:Key="ComboBoxTextColorSCB">#8fcaee</SolidColorBrush>
     <SolidColorBrush x:Key="ComboBoxBorderColorSCB">#8fcaee</SolidColorBrush>
     <Color x:Key="ComboBoxLeaveBorderColor">#c678cf</Color>
@@ -12,8 +10,7 @@
     <Color x:Key="ComboBoxOverToggleButtonColor">#ea8ef5</Color>
 
     <!--  ComboBoxItem  -->
-    <Color x:Key="ComboBoxItemBackgroundGradientColorOne">#282c34</Color>
-    <Color x:Key="ComboBoxItemBackgroundGradientColorTwo">#282c34</Color>
+    <Color x:Key="ComboBoxItemBackgroundGradientColor">#282c34</Color>
     <SolidColorBrush x:Key="ComboBoxItemBorderColorSCB">#c678cf</SolidColorBrush>
     <SolidColorBrush x:Key="ComboBoxItemSelectionColorSCB">#8ffaee</SolidColorBrush>
     <SolidColorBrush x:Key="ComboBoxItemTextColorSCB">#8fcaee</SolidColorBrush>

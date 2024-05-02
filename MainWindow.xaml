@@ -127,17 +127,17 @@
         </Grid>
         <TextBlock
             Grid.Row="1"
-            Width="500"
+            Width="550"
             Height="60"
             Margin="10"
             HorizontalAlignment="Left"
             VerticalAlignment="Bottom"
             FontFamily="JetBrainsMono-Bold.ttf#JetBrains Mono"
-            FontSize="20"
+            FontSize="18"
             Foreground="#8fcaee"
             TextWrapping="Wrap">
             Создано Wixon.
-            Хочешь узнать больше?<Hyperlink Click="OpenTelegram" NavigateUri="https://professorweb.ru/my/WPF/UI_WPF/level24/24_3.php">Загляни в  Кодерские работы</Hyperlink>
+            Хочешь узнать больше, либо расскзаать об ошибках? <Hyperlink Click="OpenTelegram" NavigateUri="https://professorweb.ru/my/WPF/UI_WPF/level24/24_3.php">Загляни в  Кодерские работы</Hyperlink>
         </TextBlock>
         <Button
             Grid.Row="1"

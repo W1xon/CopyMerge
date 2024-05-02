@@ -93,7 +93,7 @@ namespace CopyMerge
             switch (Properties.Settings.Default.Separator)
             {
                 case "Enter":
-                    return "\n";
+                    return "\t\n";
 
                 case "Space":
                     return " ";
