@@ -23,11 +23,9 @@ namespace CopyMerge
                 await semaphore.WaitAsync();
                 try
                 {
-
                     for (int i = 16; i < 68; i++)
                     {
-                        int state = GetAsyncKeyState(i);
-                        if (state != 0)
+                        if (GetAsyncKeyState(i) != 0)
                         {
                             if (((Keys)i) == Keys.Control || ((Keys)i) == Keys.ControlKey || ((Keys)i) == Keys.LControlKey || ((Keys)i) == Keys.RControlKey)
                                 keyBuffer.Append("CTRL ");
@@ -80,12 +78,11 @@ namespace CopyMerge
                         clipboard.Append(separator + Clipboard.GetText());
                         Clipboard.SetText(clipboard.ToString());
                     }
+                    return;
                 }
-                else
-                {
-                    clipboard.Clear();
-                    clipboard.Append(Clipboard.GetText());
-                }
+                clipboard.Clear();
+                clipboard.Append(Clipboard.GetText());
+
             }
         }
         private static string SetSeparator()

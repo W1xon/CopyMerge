@@ -3,8 +3,8 @@
     <ControlTemplate x:Key="ChannelButton" TargetType="Button">
         <Border Margin="20,0,20,0" VerticalAlignment="Center">
             <Image
-                Width="150"
-                Height="150"
+                Width="90"
+                Height="120"
                 Source="{DynamicResource ResourceKey=Img}"
                 Stretch="Uniform">
                 <Image.Triggers>
@@ -13,12 +13,12 @@
                             <Storyboard>
                                 <DoubleAnimation
                                     Storyboard.TargetProperty="MinWidth"
-                                    To="200"
+                                    To="120"
                                     Duration="0:0:0.2" />
 
                                 <DoubleAnimation
                                     Storyboard.TargetProperty="MinHeight"
-                                    To="200"
+                                    To="150"
                                     Duration="0:0:0.2" />
                             </Storyboard>
                         </BeginStoryboard>
@@ -28,12 +28,12 @@
                             <Storyboard>
                                 <DoubleAnimation
                                     Storyboard.TargetProperty="MinWidth"
-                                    To="150"
+                                    To="90"
                                     Duration="0:0:0.2" />
 
                                 <DoubleAnimation
                                     Storyboard.TargetProperty="MinHeight"
-                                    To="150"
+                                    To="120"
                                     Duration="0:0:0.2" />
                             </Storyboard>
                         </BeginStoryboard>

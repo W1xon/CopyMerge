@@ -5,7 +5,6 @@ C:\Users\vladi\source\repos\CopyMerge\obj\Release\CopyMerge_Content.g.cs
 C:\Users\vladi\source\repos\CopyMerge\obj\Release\CopyMerge_MarkupCompile.cache
 C:\Users\vladi\source\repos\CopyMerge\obj\Release\CopyMerge_MarkupCompile.lref
 C:\Users\vladi\source\repos\CopyMerge\bin\Release\icon.ico
-C:\Users\vladi\source\repos\CopyMerge\bin\Release\Logo.jpg
 C:\Users\vladi\source\repos\CopyMerge\bin\Release\CopyMerge.exe.config
 C:\Users\vladi\source\repos\CopyMerge\bin\Release\CopyMerge.exe
 C:\Users\vladi\source\repos\CopyMerge\bin\Release\CopyMerge.pdb

@@ -2,11 +2,6 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
-
-
-
-
-
     <!--  ComboBoxItem  -->
     <Style x:Key="ComboBoxItem" TargetType="ComboBoxItem">
         <Setter Property="Template">
@@ -15,10 +10,7 @@
                     <Grid Name="item" Height="30">
                         <Border BorderBrush="{DynamicResource ComboBoxItemBorderColorSCB}" BorderThickness="1">
                             <Border.Background>
-                                <LinearGradientBrush>
-                                    <GradientStop Offset="0" Color="{DynamicResource ComboBoxLeaveBackgroundGradientColor}" />
-                                    <GradientStop Offset="1" Color="{DynamicResource ComboBoxLeaveBackgroundGradientColor}" />
-                                </LinearGradientBrush>
+                                <SolidColorBrush Color="{DynamicResource ComboBoxLeaveBackgroundColor}" />
                             </Border.Background>
 
                             <StackPanel Orientation="Horizontal">
@@ -86,41 +78,30 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <LinearGradientBrush x:Key="ComboBox.Static.Background" StartPoint="0,0" EndPoint="0,1">
-        <GradientStop Offset="0.0" Color="{DynamicResource ComboBoxLeaveBackgroundGradientColorOne}" />
-        <GradientStop Offset="1.0" Color="{DynamicResource ComboBoxLeaveBackgroundGradientColorTwo}" />
-    </LinearGradientBrush>
+    <SolidColorBrush x:Key="ComboBox.Static.Background" Color="{DynamicResource ComboBoxLeaveBackgroundColor}" />
     <SolidColorBrush x:Key="ComboBox.Static.Border" Color="{DynamicResource ComboBoxLeaveBorderColor}" />
     <SolidColorBrush x:Key="ComboBox.Static.Glyph" Color="{DynamicResource ComboBoxLeaveBorderColor}" />
     <SolidColorBrush x:Key="ComboBox.Static.Editable.Background" Color="#FFFFFFFF" />
     <SolidColorBrush x:Key="ComboBox.Static.Editable.Border" Color="#FFABADB3" />
     <SolidColorBrush x:Key="ComboBox.Static.Editable.Button.Background" Color="Transparent" />
     <SolidColorBrush x:Key="ComboBox.Static.Editable.Button.Border" Color="Transparent" />
-    <LinearGradientBrush x:Key="ComboBox.MouseOver.Background" StartPoint="0,0" EndPoint="0,1">
-        <GradientStop Offset="0.0" Color="{DynamicResource ComboBoxOverColorGradientColorOne}" />
-        <GradientStop Offset="1.0" Color="{DynamicResource ComboBoxOverColorGradientColorTwo}" />
-    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="ComboBox.MouseOver.Background" Color="{DynamicResource ComboBoxOverColorColor}" />
     <SolidColorBrush x:Key="ComboBox.MouseOver.Border" Color="{DynamicResource ComboBoxOverBorderColor}" />
     <SolidColorBrush x:Key="ComboBox.MouseOver.Glyph" Color="{DynamicResource ComboBoxOverBorderColor}" />
     <SolidColorBrush x:Key="ComboBox.MouseOver.Editable.Background" Color="#FFFFFFFF" />
     <SolidColorBrush x:Key="ComboBox.MouseOver.Editable.Border" Color="{DynamicResource ComboBoxOverBorderColor}" />
-    <LinearGradientBrush x:Key="ComboBox.MouseOver.Editable.Button.Background" StartPoint="0,0" EndPoint="0,1">
-        <GradientStop Offset="0.0" Color="#FFEBF4FC" />
-        <GradientStop Offset="1.0" Color="#FFDCECFC" />
-    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="ComboBox.MouseOver.Editable.Button.Background" Color="#FFEBF4FC" />
     <SolidColorBrush x:Key="ComboBox.MouseOver.Editable.Button.Border" Color="{DynamicResource ComboBoxOverBorderColor}" />
-    <LinearGradientBrush x:Key="ComboBox.Pressed.Background" StartPoint="0,0" EndPoint="0,1">
-        <GradientStop Offset="0.0" Color="{DynamicResource ComboBoxLeaveBackgroundGradientColorOne}" />
-        <GradientStop Offset="1.0" Color="{DynamicResource ComboBoxLeaveBackgroundGradientColorTwo}" />
-    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="ComboBox.Pressed.Background" Color="{DynamicResource ComboBoxLeaveBackgroundColor}" />
     <SolidColorBrush x:Key="ComboBox.Pressed.Border" Color="{DynamicResource ComboBoxOverToggleButtonColor}" />
     <SolidColorBrush x:Key="ComboBox.Pressed.Glyph" Color="{DynamicResource ComboBoxOverToggleButtonColor}" />
     <SolidColorBrush x:Key="ComboBox.Pressed.Editable.Background" Color="#FFFFFFFF" />
     <SolidColorBrush x:Key="ComboBox.Pressed.Editable.Border" Color="{DynamicResource ComboBoxOverToggleButtonColor}" />
-    <LinearGradientBrush x:Key="ComboBox.Pressed.Editable.Button.Background" StartPoint="0,0" EndPoint="0,1">
-        <GradientStop Offset="0.0" Color="{DynamicResource ComboBoxLeaveBackgroundGradientColorOne}" />
-        <GradientStop Offset="1.0" Color="{DynamicResource ComboBoxLeaveBackgroundGradientColorTwo}" />
-    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="ComboBox.Pressed.Editable.Button.Background" Color="{DynamicResource ComboBoxLeaveBackgroundColor}" />
     <SolidColorBrush x:Key="ComboBox.Pressed.Editable.Button.Border" Color="{DynamicResource ComboBoxOverBorderColor}" />
     <SolidColorBrush x:Key="ComboBox.Disabled.Background" Color="#FFF0F0F0" />
     <SolidColorBrush x:Key="ComboBox.Disabled.Border" Color="#FFD9D9D9" />

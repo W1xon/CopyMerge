@@ -9,6 +9,5 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icon.ico")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("logo.jpg")]
 
 

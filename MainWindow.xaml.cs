@@ -6,7 +6,6 @@ using System.Windows.Forms;
 using System.Windows.Controls;
 using Microsoft.Win32;
 using System.Reflection;
-using System.IO;
 namespace CopyMerge
 {
     /// <summary>
@@ -20,23 +19,27 @@ namespace CopyMerge
         public MainWindow()
         {
             InitializeComponent();
+            InitializeNotifyIcon();
             if (Properties.Settings.Default.Autoran)
             {
                 
             }
             SetComboBoxValue();
+            KeyLogger.KeyBufferClear();
+            KeyLogger.KeyChecker();
+        }
+        private void InitializeNotifyIcon()
+        {
             isInitializing = false;
             notifyIcon = new NotifyIcon();
             notifyIcon.BalloonTipText = "Программа свернута в трей, вы можете продолжать ей пользоваться :)";
             notifyIcon.BalloonTipTitle = "Go To tray";
             notifyIcon.Text = "CopyMerge";
-            string iconPath = "icon.ico";
-            notifyIcon.Icon = new System.Drawing.Icon(System.AppDomain.CurrentDomain.BaseDirectory + iconPath);
+            string iconPath = $"{AppDomain.CurrentDomain.BaseDirectory}icon.ico";
+            notifyIcon.Icon = new System.Drawing.Icon(iconPath);
             notifyIcon.Click += new EventHandler(NotifyIcon_Click);
-            KeyLogger.KeyBufferClear();
-            KeyLogger.KeyChecker();
         }
-        private bool SetAutoLaunch(bool launch, string path)
+        private bool SetAutoAutoran(bool autoran, string path)
         {
             string name = "CopyMerge";
             string ExePath = path;
@@ -44,7 +47,7 @@ namespace CopyMerge
             reg = Registry.CurrentUser.CreateSubKey("Software\\Microsoft\\Windows\\CurrentVersion\\Run\\");
             try
             {
-                if (launch)
+                if (autoran)
                 {
                     reg.SetValue(name, ExePath);
                 }
@@ -148,14 +151,13 @@ namespace CopyMerge
                 {
                     case "Выключено":
                         Properties.Settings.Default.Autoran = false;
-                        SetAutoLaunch(false, Assembly.GetEntryAssembly().Location);
                         break;
 
                     case "Включено":
                         Properties.Settings.Default.Autoran = true;
-                        SetAutoLaunch(true, Assembly.GetEntryAssembly().Location);
                         break;
                 }
+                SetAutoAutoran(Properties.Settings.Default.Autoran, Assembly.GetEntryAssembly().Location);
                 Properties.Settings.Default.Save();
             }
         }
