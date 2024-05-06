@@ -13,6 +13,7 @@ namespace CopyMerge
         private static SemaphoreSlim semaphore = new SemaphoreSlim(1, 1);
         private static StringBuilder keyBuffer = new StringBuilder();
         private static StringBuilder clipboard = new StringBuilder();
+        private static string clipboardBuffer;
         [DllImport("user32.dll")]
         private static extern int GetAsyncKeyState(Int32 i);
         public static async Task KeyChecker()
@@ -23,7 +24,7 @@ namespace CopyMerge
                 await semaphore.WaitAsync();
                 try
                 {
-                    for (int i = 16; i < 68; i++)
+                    for (int i = 0; i < 68; i++)
                     {
                         if (GetAsyncKeyState(i) != 0)
                         {
@@ -35,6 +36,15 @@ namespace CopyMerge
                                 keyBuffer.Append("C ");
                             else if (((Keys)i) == Keys.V)
                                 keyBuffer.Append("V ");
+                            else if((Keys)i == Keys.LButton && GetAsyncKeyState(Convert.ToInt32(Keys.ControlKey)) == 0)
+                            {
+                                if (clipboardBuffer != Clipboard.GetText())
+                                {
+                                    clipboard.Clear();
+                                    clipboard.Append(Clipboard.GetText());
+                                    clipboardBuffer = Clipboard.GetText();
+                                }
+                            }
                         }
                     }
                 }
@@ -77,11 +87,13 @@ namespace CopyMerge
                     {
                         clipboard.Append(separator + Clipboard.GetText());
                         Clipboard.SetText(clipboard.ToString());
+                        clipboardBuffer = Clipboard.GetText();
                     }
                     return;
                 }
                 clipboard.Clear();
                 clipboard.Append(Clipboard.GetText());
+                clipboardBuffer = Clipboard.GetText();
 
             }
         }

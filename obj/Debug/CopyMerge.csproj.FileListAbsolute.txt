@@ -15,7 +15,6 @@ C:\Users\vladi\source\repos\CopyMerge\obj\Debug\CopyMerge.exe
 C:\Users\vladi\source\repos\CopyMerge\obj\Debug\CopyMerge.pdb
 C:\Users\vladi\source\repos\CopyMerge\bin\Debug\icon.ico
 C:\Users\vladi\source\repos\CopyMerge\obj\Debug\CopyMerge_Content.g.cs
-C:\Users\vladi\source\repos\CopyMerge\bin\Debug\Logo.jpg
 C:\Users\vladi\source\repos\CopyMerge\obj\Debug\BtnStyle.baml
 C:\Users\vladi\source\repos\CopyMerge\obj\Debug\App.baml
 C:\Users\vladi\source\repos\CopyMerge\obj\Debug\ComboBoxStyle.baml
