@@ -5,8 +5,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CopyMerge.ViewModel;
 
-namespace CopyMerge
+namespace CopyMerge.Services
 {
     internal class KeyLogger
     {
@@ -14,8 +15,10 @@ namespace CopyMerge
         private static StringBuilder keyBuffer = new StringBuilder();
         private static StringBuilder clipboard = new StringBuilder();
         private static string clipboardBuffer;
+        
         [DllImport("user32.dll")]
         private static extern int GetAsyncKeyState(Int32 i);
+        
         public static async Task KeyChecker()
         {
             while (true)
@@ -24,6 +27,7 @@ namespace CopyMerge
                 await semaphore.WaitAsync();
                 try
                 {
+                    UpdateClipboardBufferIfChanged();
                     for (int i = 0; i < 68; i++)
                     {
                         if (GetAsyncKeyState(i) != 0)
@@ -43,6 +47,7 @@ namespace CopyMerge
                                     clipboard.Clear();
                                     clipboard.Append(Clipboard.GetText());
                                     clipboardBuffer = Clipboard.GetText();
+                                    
                                 }
                             }
                         }
@@ -77,7 +82,7 @@ namespace CopyMerge
         }
         private static void CopyHandler()
         {
-            string separator = SetSeparator();
+            string separator = GetSeparator();
             string[] key = keyBuffer.ToString().Split(' ');
             if (key.Contains("CTRL") && key.Contains("C"))
             {
@@ -86,6 +91,7 @@ namespace CopyMerge
                     if (!string.IsNullOrWhiteSpace(Clipboard.GetText()))
                     {
                         clipboard.Append(separator + Clipboard.GetText());
+                        MainViewModel.Instance.AddToClipboardStore(clipboard.ToString());
                         Clipboard.SetText(clipboard.ToString());
                         clipboardBuffer = Clipboard.GetText();
                     }
@@ -93,17 +99,17 @@ namespace CopyMerge
                 }
                 clipboard.Clear();
                 clipboard.Append(Clipboard.GetText());
+                MainViewModel.Instance.AddToClipboardStore(clipboard.ToString());
                 clipboardBuffer = Clipboard.GetText();
-
             }
         }
-        private static string SetSeparator()
+        private static string GetSeparator()
         {
             switch (Properties.Settings.Default.Separator)
             {
                 case "Enter":
-                    return "\t\n";
-
+                    return Environment.NewLine;
+                
                 case "Space":
                     return " ";
 
@@ -115,5 +121,21 @@ namespace CopyMerge
             }
             return "";
         }
+        /// <summary>
+        /// Проверяет, появился ли новый текст в буфере обмена, 
+        /// и при необходимости обновляет наш внутренний буфер.
+        /// Иногда текст копируется не через сочетания клавиш (Ctrl+C),
+        /// а через сторонние кнопки или элементы интерфейса, поэтому важно ловить такие изменения.
+        /// </summary>
+        private static void UpdateClipboardBufferIfChanged()
+        {
+            string currentClipboardText = Clipboard.GetText();
+    
+            if (currentClipboardText != MainViewModel.Instance.ClipboardPreview)
+            {
+                MainViewModel.Instance.AddToClipboardStore(clipboard.ToString());
+            }
+        }
+
     }
 }
